@@ -1,0 +1,38 @@
+CUE: REVISANDO LAS APLICACIONES PREINSTALADAS
+REBOUND EXERCISE: APLICACIONES PREINSTALADAS DJANGO
+Para resolver este ejercicio, anteriormente debe haber revisado la 
+lectura y los videos del CUE:
+Revisando las Aplicaciones Preinstaladas.
+EJERCICIO:
+Partiendo del ejercicio creado en el Rebound y Drilling del CUE 
+anterior, adecue el sitio administrativo 
+de Django con la finalidad de que muestre al usuario administrador 
+el siguiente aspecto que se detalla a continuiación con relación a 
+las fábricas y los productos.
+Descripción del Aspecto visual del admin de Django En las Fábricas:
+"Título a la izquierda arriba que dice "Select fAbrica to change", en la 
+misma línea a la derecha un botón CONUN RATIO DE 15 Y que dice 
+"ADD FABRICA" y el signo más, luego en la siguiente línea una etiqueta
+con el texto "Action", luego un Select con las opciones, luego un botón 
+con el texto "Go" y luego una etiqueta "0 of 2 selected".
+En la siguiente línea una tabla con 3 columnas, la primera con un checkbox
+, la segunda con el titulo de la columna y el texto"NOMBRE", luego la 
+siguiente columna con el título "PAIS".
+la tabla tiene los registros de la fabrica "COLGATE" del país "Colombia" y la fábrica 
+"P&G" del país Canadá
+Luego, bajo la tabla hay una etiqueta con el texto 2 fabricas"
+
+Descripción del Aspecto visual del admin de Django en los Productos:
+"Arriba a la izquierda un título con el texto "Select producto to change"
+, en la misma línea a la derecha un botón con radio 15 y un texto 
+"ADD PRODUCTO +".
+Luego, en la siguiente línea una etiqueta con el texto "Action", 
+luego un Select con opciones, luego un botón con el texto "Go" y 
+luego una etiqueta "0 of 2 selected".
+Bajo esto en la siguiente linea hay una tabla, con el siguiente
+encabezado, un checkbox, "NOMBRE", DESCRIPCION", "COSTO", 
+"F VENCIMIENTO", "FABRICA".
+Bajo la tabla hay un paginador con los resultados.
+A la derecha de la tabla, hay una columna, que esta titulada como 
+"FILTER" en esta columna hay un filtro "By nombre", "By fabrica", "All", 
+"COLGATE", "P&G".
